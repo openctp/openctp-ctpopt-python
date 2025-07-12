@@ -5,8 +5,8 @@ author: krenx@openctp.
 last modify: 2024/12/13
 """
 
-# from openctp_ctpopt import mdapi # pip install mode
-import soptthostmduserapi as mdapi # manual mode
+from openctp_ctpopt import soptthostmduserapi as mdapi # pip install mode
+# import soptthostmduserapi as mdapi # local mode
 
 
 class CMdImpl(mdapi.CThostFtdcMdSpi):

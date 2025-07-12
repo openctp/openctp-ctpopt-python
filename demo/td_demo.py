@@ -2,8 +2,8 @@ import sys
 import time
 import os
 import threading
-# from openctp_ctpopt import tdapi # pip install mode
-import soptthosttraderapi as tdapi # manual mode
+from openctp_ctpopt import soptthosttraderapi as tdapi # pip install mode
+# import soptthosttraderapi as tdapi # local mode
 
 
 class TdImpl(tdapi.CThostFtdcTraderSpi):
