@@ -12,7 +12,7 @@ pip install openctp-ctpopt==3.7.0.* -i https://pypi.tuna.tsinghua.edu.cn/simple 
 
 ### 文件下载方式
 
-[CTPOPT-Python接口下载](http://openctp.cn/download.html)
+[CTPOPT-Python接口下载](http://openctp.cn/CTPAPI-Python.html)
 
 ## 自己编译
 CTPOPT-Python使用Swig技术开发，可以自己按以下步骤编译，需要安装swig等组件，详细攻略见：[CTPAPI-Python开发攻略](https://zhuanlan.zhihu.com/p/688672132)。
